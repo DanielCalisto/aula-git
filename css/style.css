@@ -15,3 +15,45 @@ header > h1 {
     margin: 0 auto;
 }
 
+.nav-lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 15px 0;
+}
+
+.nav-lista > li > a{
+    margin-left: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.pata {
+    margin-right: 12px;
+}
+
+.pata:hover {
+    color: #6dd432;
+}
+
+.secColor{
+    background-color: #bdff9c;
+}
+.secSobre {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px ;
+    padding-bottom: 50px;
+}
+
+.divSobre {
+    width:40%; 
+    font-size:18px;
+}
+.divSobre > h2{
+    margin-bottom:15px;
+}
