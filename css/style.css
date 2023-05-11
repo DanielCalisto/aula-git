@@ -4,7 +4,7 @@
 
 }
 header {
-    background-image: url(Petshop/fundo-topo.jpg);
+    background-image: url(../Petshop/fundo-topo.jpg);
     margin: 0 auto;
     padding: 10px 0;
 }
@@ -56,4 +56,61 @@ header > h1 {
 }
 .divSobre > h2{
     margin-bottom:15px;
+}
+
+#secao3{
+    display: flex;
+    width: 100%;
+}
+
+.divProdutos{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .produtos{
+    text-align: center;
+    width: 60%;
+}  
+.ProdutosStr {
+    margin-bottom: 15px;
+}
+
+.produtos01{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    
+}
+
+.comprar {
+    background-color: #d2fbbd;
+    border: 1px solid #91e467;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    padding: 10px 15px;
+    
+}
+
+.p{
+    margin-bottom: 15px;
+}
+
+.bordaProd{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    margin-top: 45px;
+    vertical-align: middle;
+    padding: 10px 20px;
+    margin-bottom: 15px;
 }
