@@ -113,4 +113,50 @@ header > h1 {
     vertical-align: middle;
     padding: 10px 20px;
     margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+}
+.sec2 {
+    margin-top: 130px;
+    display: flex;
+    
+}
+
+.divSec02{
+    width: 500px;
+    margin-left: 30%;
+}
+
+.contato {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    width: 60%;
+    margin-bottom: 60px;
+}
+
+.contato > h1 {
+    margin-bottom: 15px;
+}
+
+.form {
+    margin-top: 25px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form > form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form > form > label {
+    font-weight: bold;
+}
+
+.form > form > input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 450px;
 }
