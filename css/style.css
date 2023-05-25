@@ -57,10 +57,21 @@ nav{
     padding-bottom: 50px;
 }
 
+
+
 .divSobre {
-    width:60%; 
+    width:40%; 
     font-size:18px;
 }
+.divSobre2 {
+    width:550px ;
+    font-size: 18px;
+}
+
+.divSobre2 > p {
+    margin-top: 15px;
+}
+
 .divSobre > h2{
     margin-bottom:15px;
 }
@@ -126,17 +137,19 @@ nav{
 .sec2 {
     margin-top: 130px;
     display: flex;
+    justify-content: space-between;
     
 }
 
 .divSec02{
-    width: 800px; 
-    margin-left: 360px;
+    width: 400px; 
+    height: 400px;
+    
 }
 
 .divSec02 > img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 .contato {
