@@ -224,6 +224,10 @@ footer > div > p {
     margin: auto;
 }
 
+.none {
+    display: none;
+}
+
 @media (max-width:580px) {
 
     .secSobre {
@@ -315,5 +319,23 @@ footer > div > p {
         width: 450px;
         height: 450px;
         
+    }
+    .none {
+        display:block;
+    }
+
+    nav > ul {
+        flex-direction: column;
+    }
+    nav > ul > li {
+        display: flex;
+        align-items: center;
+        width: 120px;
+        
+
+    }
+    
+    nav > ul > li > img {
+        display: none;
     }
 }
